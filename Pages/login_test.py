@@ -19,6 +19,7 @@ def driver():
     driver.close()
     driver.quit()
 
+
 def test_login(driver):
     login_page = LoginPage(driver)
     time.sleep(3)
